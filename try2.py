@@ -1,6 +1,6 @@
 import cv2
 imagePath = "./om.JPG"
-cascPath = "./haarcascade_frontalface_default.xml"
+cascPath = "./haarcascadefrontalfacedefault.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 image = cv2.imread(imagePath)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
